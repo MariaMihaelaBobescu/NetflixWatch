@@ -1,0 +1,95 @@
+
+*{
+    margin: auto;
+    background-color:transparent;
+}
+.myList{
+    position: relative;
+   
+    
+    /* background-color: black; */
+    top:0; 
+    height: 40rem; 
+     width: 100%; 
+     background-image: linear-gradient(blueviolet, #181818,  #171717, #171717 , #171717);
+     
+      display: flex;
+      flex-direction: row; 
+      gap: 0.1rem; 
+      flex-wrap: wrap; 
+    
+}
+
+
+.backgroundList{
+
+  height: 30rem;
+    width:60rem;
+
+}
+
+@keyframes schimbaCuloarea {
+    0% {
+      background-color: red;
+    }
+    50% {
+      background-color:#171717;
+    }
+    100% {
+      background-color: blueviolet;
+    }
+  }
+  
+/* 
+.icon{
+    border:none;
+    background: none;
+    padding: none;
+    border: none;
+    position: absolute;
+   color: white;
+    height: 8rem;
+    width: 8rem;
+    margin-left: 75rem;
+    /* margin-top: 2rem; */
+     /* margin-bottom: 3rem; 
+     background-color: red;
+  animation: schimbaCuloarea 2s infinite; 
+  margin: 0;
+  padding: 0; */
+
+/* } */ 
+
+
+.icon {
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+    position: absolute;
+    color: white;
+    height: 8rem;
+    width: 8rem;
+    margin-left: 30rem;
+    margin-bottom: 3rem;
+    background-color: red;
+    animation: schimbaCuloarea 2s infinite;
+  }
+  
+  /* Dacă ai nevoie să elimini și marginile */
+  .icon::before,
+  .icon::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+  
+  .icon::before,
+  .icon::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  
+  .title1{
+    color: red
+  }

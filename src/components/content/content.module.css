@@ -1,0 +1,134 @@
+
+*{
+     /* background-color: #2A2727;  */
+       background-color: #171717;
+       position: relative;
+       z-index: 30;
+}
+.backgroundContainer{
+    /* position: relative; */
+    text-align: center;
+    color: white;
+    max-width: 300px;
+    z-index: 30;
+
+}
+
+.avatar{
+   height: 20rem;
+   width: 68rem;
+    border-left-width: 40rem;
+   padding: 1rem 1rem;
+   display: flex;
+    justify-content: center;
+    margin-left: 4rem;
+    display: block;
+  /* width: 100%; */
+  height: auto;
+  border-radius: 2rem;
+  z-index: 30;
+}
+.overlay{
+    position: absolute;
+    
+     top:0rem;
+   /* left: 30px; */
+   bottom:5rem;
+   /* bottom: 0rem; */
+
+   background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.7); 
+   width: 105%;
+     height: 100%;
+     padding: 0.5rem; 
+
+   color: #f1f1f1;
+   transition: .5s ease;
+  opacity:0;
+   font-size: 18px; 
+   padding: 3rem 3rem; 
+  text-align: center; 
+  margin-top: 1.5rem;
+  margin-left: 62rem;
+  display: inline-block;  
+  /* overflow: hidden; */
+    white-space: wrap;  
+    gap:6rem;
+    row-gap: 6rem;
+    font-style: italic;
+    font-style: verdana;
+}
+.backgroundContainer:hover .overlay {
+    opacity: 10;
+  }
+
+.play{
+
+  position: absolute;
+   top:32rem ;
+   margin-left: 50rem;
+   background: none;
+     border: none;
+   color: red;
+     font-size: 3rem;
+     height: 4rem;
+     width: 4rem;
+
+}
+.buttonPlay{
+  top:20rem;
+   position:absolute;
+
+  
+}
+
+.trend{
+    font-size: 1.5rem;
+    padding: 1rem 7rem;
+    gap:10rem;
+    color: white;
+    margin-top: 2.5rem;
+    row-gap: 3rem;
+    position: relative;
+    z-index:30;
+
+    
+}
+
+
+.da{
+
+  margin-left: 2rem;
+  
+    
+}
+
+.contentSection {
+  
+     display: flex; 
+    flex-direction: row; 
+     gap: 0.1rem; 
+     flex-wrap: nowrap; 
+                           
+     /* padding: 3px ;  */
+      color: red;
+
+    margin-left: 2rem;
+      float: left;
+    overflow-x:auto;
+    overflow-y:hidden;
+    z-index: 1000;
+    
+    
+};
+
+
+
+.contentDa{
+    display: flex;
+     flex-direction: row-reverse;
+     position: relative;
+     z-index: 30;
+
+}
+
